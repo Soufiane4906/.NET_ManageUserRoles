@@ -24,6 +24,7 @@ namespace WebApplication1.Data
                 LastName = "Aniba",
                 EmailConfirmed = true,
                 PhoneNumberConfirmed = true
+                
             };
             if (userManager.Users.All(u => u.Id != defaultUser.Id))
             {
